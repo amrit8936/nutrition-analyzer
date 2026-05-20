@@ -237,7 +237,7 @@ app.post('/api/nutrition', upload.single('image'), async (req, res) => {
 });
 
 app.get('/api/status', (req, res) => {
-  const isKeyActive = Boolean(GEMINI_API_KEY) && GEMINI_API_KEY !== 'YOUR_GEMINI_API_KEY_HERE' && GEMINI_API_KEY !== '';
+  const isKeyActive = Boolean(GEMINI_API_KEY) && GEMINI_API_KEY !== 'YOUR_GEMINI_API_' && GEMINI_API_KEY !== '';
   res.json({ geminiActive: isKeyActive });
 });
 
