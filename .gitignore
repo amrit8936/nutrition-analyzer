@@ -2,11 +2,6 @@
 node_modules/
 jspm_packages/
 
-# Build outputs
-dist/
-tmp/
-out/
-build/
 
 # Local env files
 .env
