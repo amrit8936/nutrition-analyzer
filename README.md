@@ -29,12 +29,6 @@ bashcp .env.example .env
 Open .env and configure your API key:
 envPORT=3000
 
-# Option A — Google Gemini AI (recommended)
-GEMINI_API_KEY=your_gemini_api_key_here
-
-# Option B — Custom Nutrition API (optional)
-NUTRITION_API_URL=https://api.your-provider.com/nutrition
-NUTRITION_API_KEY=your_custom_api_key_here
 
 💡 Get a free Gemini API key at aistudio.google.com. No credit card required.
 
